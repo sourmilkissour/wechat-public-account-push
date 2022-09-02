@@ -4,13 +4,13 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "",
+    APP_ID: "wx1249a3b96b71e747",
 
     // 公众号APP_SECRET
-    APP_SECRET: "",
+    APP_SECRET: "694629afcaa6de6e3dc267d2b1e549d3",
 
     // 模板消息id
-    TEMPLATE_ID: "",
+    TEMPLATE_ID: "Q-PS7u7YX7ekjKlcNWlrtRAKPzrM8x3lvhsYmlQS7uY",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "",
@@ -24,14 +24,11 @@ export const config = {
      * ]
      */
     USERS: [
-      {name: '老婆0', id: "1hxOO6VskYv0Kuf-y你懂的,填错狗头打烂VRMpuXhk"}, 
-      {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
-      {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
-      {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
-    ],
+      {name: '小菜', id: "o1kw56_P-NKICcbaq-XFZEKw8TSM"}, 
+      {name: '小洋', id: "o1kw561qKvRMMcQvE3lAGQVVihB8"}],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "5hxOO6VskYv你懂的,填错狗头打烂-ywIZVRMpuXhk"}, 
+      {name: '自己',id: "o1kw561qKvRMMcQvE3lAGQVVihB8"}, 
     ],
      
     /**
@@ -41,9 +38,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "广东",
+    PROVINCE: "福建",
     // 所在城市
-    CITY: "惠州",
+    CITY: "漳州",
 
     /** 重要节日相关 */
 
@@ -54,10 +51,10 @@ export const config = {
      * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
      */
     FESTIVALS: [
-      {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-      {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-      {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
+      {"type": "生日", "name": "小菜", "year": "2002", "date": "02-04"},
+      {"type": "生日", "name": "小洋", "year": "2002", "date": "05-26"},
       {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+      {"type": "节日", "name": "纪念日", "year": "2021", "date": "06-01"}
     ],
 
     /**
@@ -65,7 +62,7 @@ export const config = {
      * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
      * 如果为0, 则默认展示全部
      */
-    FESTIVALS_LIMIT: 4,
+    FESTIVALS_LIMIT: 2,
 
     /** 日期相关 */
 
@@ -75,11 +72,11 @@ export const config = {
       * */
     CUSTOMIZED_DATE_LIST: [
       // 在一起的日子
-      {"keyword": "love_day", date: "2015-05-01"},
+      {"keyword": "love_day", date: "2021-06-01"},
       // 结婚纪念日
-      {"keyword": "marry_day", date: "2020-01-04"},
+      //{"keyword": "marry_day", date: "2020-01-04"},
       // 退伍日, 不用可以删掉
-      {"keyword": "ex_day", date: "2022-08-31"},
+      //{"keyword": "ex_day", date: "2022-08-31"},
       // sakana日
       // {"keyword": "sakana_day", date: "2022-01-06"},
       // ... 
@@ -93,7 +90,7 @@ export const config = {
       * */
     SLOT_LIST: [
       // 这样配置的话，就会每次发送这句话
-      {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+      {"keyword": "encourage_oneself", contents: "希望今天又是快乐的一天！"},
       // 这样配置的话，就会每次随机选一句话发送
       {"keyword": "lover_prattle", contents: [
         "因为太喜欢你，所以看谁都像是情敌。",
