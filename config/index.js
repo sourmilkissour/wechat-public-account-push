@@ -53,7 +53,7 @@ export const config = {
     FESTIVALS: [
       {"type": "生日", "name": "小菜", "year": "2002", "date": "02-04"},
       {"type": "生日", "name": "小洋", "year": "2002", "date": "05-26"},
-      {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+      {"type": "节日", "name": "纪念日", "year": "2021", "date": "06-01"},
       {"type": "节日", "name": "纪念日", "year": "2021", "date": "06-01"}
     ],
 
@@ -62,7 +62,7 @@ export const config = {
      * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
      * 如果为0, 则默认展示全部
      */
-    FESTIVALS_LIMIT: 2,
+    FESTIVALS_LIMIT: 3,
 
     /** 日期相关 */
 
@@ -73,8 +73,8 @@ export const config = {
     CUSTOMIZED_DATE_LIST: [
       // 在一起的日子
       {"keyword": "love_day", date: "2021-06-01"},
-      // 结婚纪念日
-      //{"keyword": "marry_day", date: "2020-01-04"},
+      // 纪念日
+      //{"keyword": "brithday", date: "2020-02-04"},
       // 退伍日, 不用可以删掉
       //{"keyword": "ex_day", date: "2022-08-31"},
       // sakana日
