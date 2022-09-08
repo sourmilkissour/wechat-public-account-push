@@ -78,7 +78,7 @@ export const config = {
       // 退伍日, 不用可以删掉
       //{"keyword": "ex_day", date: "2022-08-31"},
       // 6级日
-       {"keyword": "sixexam_day", date: "2022-12-10"},
+      {"keyword": "sixexam_day", date: "2022-12-10"},
       // ... 
     ],
 
