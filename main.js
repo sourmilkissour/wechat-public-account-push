@@ -35,7 +35,7 @@ const main = async () => {
     const { hitokoto: oneTalk, from: talkFrom} = await getOneTalk(config.LITERARY_PREFERENCE)
     // 统计日列表计算日期差
     const dateDiffParams = getDateDiffList().map(item => {
-        return { name: item.keyword, value: item.diffDay, color: getColor() }
+        return { name: item.keyword, value: Math.abs(item.diffDay), color: getColor() }
     })
 
     // 获取插槽中的数据
