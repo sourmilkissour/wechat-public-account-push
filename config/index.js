@@ -40,7 +40,7 @@ export const config = {
     // 所在省份
     PROVINCE: "福建",
     // 所在城市
-    CITY: "晋江",
+    CITY: "泉州",
 
     /** 重要节日相关 */
 
